@@ -1,0 +1,20 @@
+﻿<Window x:Class="SheetMetalObject.SheetObject"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SheetMetalObject"
+             mc:Ignorable="d" Width="442.667" Height="248" Foreground="White" Background="White">
+    <Grid Background="White">
+        <TextBox Name="Thickness" HorizontalAlignment="Left" Height="23" Margin="157,100,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="BendingRadius" HorizontalAlignment="Left" Height="23" Margin="157,138,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="Material" HorizontalAlignment="Left" Height="23" Margin="157,176,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Name="Poly" Content="Draw" HorizontalAlignment="Left" Margin="212,47,0,0" VerticalAlignment="Top" Width="53" Click="Poly_Click" BorderBrush="{x:Null}"/>
+        <Label Content="Thickness" HorizontalAlignment="Left" Margin="38,100,0,0" VerticalAlignment="Top" Width="93" Background="{x:Null}" Foreground="White" />
+        <Label Content="BendingRadius" HorizontalAlignment="Left" Margin="38,172,0,0" VerticalAlignment="Top" Width="93" Background="{x:Null}" Foreground="White" />
+        <Label Content="Material" HorizontalAlignment="Left" Margin="38,135,0,0" VerticalAlignment="Top" Width="93" Background="{x:Null}" Foreground="White" />
+        <Button x:Name="Poly_Copy" Content="SELECT" HorizontalAlignment="Left" Margin="142,47,0,0" VerticalAlignment="Top" Width="50" Click="Poly_Click" BorderBrush="{x:Null}"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="4" Margin="38,78,0,0" VerticalAlignment="Top" Width="227"/>
+
+    </Grid>
+</Window>
